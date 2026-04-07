@@ -2,6 +2,8 @@ site_name: emotionalonbroadway
 site_url: https://emotionalonbroadway.github.io/
 theme:
   name: material
+  palette:
+    scheme: default
 nav: 
   - Home: "index.md"
   - Haves: "haves.md"
