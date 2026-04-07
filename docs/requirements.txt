@@ -1,2 +1,4 @@
 mkdocs-material
 mkdocs-table-reader-plugin
+mkdocs-macros-plugin
+openpyxl
