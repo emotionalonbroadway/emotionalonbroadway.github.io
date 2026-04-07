@@ -6,3 +6,7 @@ nav:
   - Home: "index.md"
   - Haves: "haves.md"
   - Wants: "wants.md"
+plugins:
+  - table-reader:
+      data_path: "docs/tables/"
+      allow_missing_files: True
