@@ -5,7 +5,6 @@ theme:
   palette:
     scheme: default
 nav: 
-  - Home: "index.md"
   - Haves: "haves.md"
   - Wants: "wants.md"
 plugins:
