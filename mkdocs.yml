@@ -1,5 +1,7 @@
 site_name: emotionalonbroadway
 site_url: https://emotionalonbroadway.github.io/
+theme:
+  name: material
 nav: 
   - Haves: "haves.md"
   - Wants: "wants.md"
