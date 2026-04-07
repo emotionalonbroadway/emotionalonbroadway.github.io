@@ -3,7 +3,7 @@ site_url: https://emotionalonbroadway.github.io/
 theme:
   name: material
   palette:
-    scheme: default
+    scheme: slate
 nav: 
   - Haves: "haves.md"
   - Wants: "wants.md"
