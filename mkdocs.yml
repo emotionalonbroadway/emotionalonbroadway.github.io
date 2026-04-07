@@ -1,7 +1,5 @@
 site_name: emotionalonbroadway
 site_url: https://emotionalonbroadway.github.io/
-watch:
-  - includes
 nav: 
   - Haves: "haves.md"
   - Wants: "wants.md"
