@@ -3,5 +3,6 @@ site_url: https://emotionalonbroadway.github.io/
 theme:
   name: material
 nav: 
+  - Home: "index.md"
   - Haves: "haves.md"
   - Wants: "wants.md"
