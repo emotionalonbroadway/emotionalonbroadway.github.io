@@ -4,6 +4,7 @@ theme:
   name: material
   palette:
     scheme: slate
+    primary: pink
   icon: 
     logo: material/emoticon-cry-outline
 nav: 
