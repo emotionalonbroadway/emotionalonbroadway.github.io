@@ -16,6 +16,8 @@ plugins:
   - table-reader:
       data_path: "docs/tables/"
       allow_missing_files: True
+  - search
+  - git-revision-date-localized
 extra_css:
   - css/github-tables.css
   - css/extra.css
