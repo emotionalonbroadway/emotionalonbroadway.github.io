@@ -18,6 +18,10 @@ plugins:
       allow_missing_files: True
   - search
   - git-revision-date-localized
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra_css:
   - css/github-tables.css
   - css/extra.css
