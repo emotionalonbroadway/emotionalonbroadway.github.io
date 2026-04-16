@@ -22,6 +22,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - mdx_linkify
 extra_css:
   - css/github-tables.css
   - css/extra.css
