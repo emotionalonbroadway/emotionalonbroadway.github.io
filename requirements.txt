@@ -1,0 +1,6 @@
+mkdocs-material
+mkdocs-table-reader-plugin
+mkdocs-macros-plugin
+openpyxl
+mkdocs-git-revision-date-localized-plugin
+mdx_linkify
