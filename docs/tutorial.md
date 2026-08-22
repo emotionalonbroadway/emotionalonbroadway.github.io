@@ -1,6 +1,6 @@
 # How-To
 
-This page will cover how to set up an mkdocs patch from beginning to end. 
+This page will cover how to set up an mkdocs website from beginning to end. 
 
 ## Github Account Creation
 
