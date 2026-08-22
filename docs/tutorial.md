@@ -59,9 +59,11 @@ Open the `docs/tables` folder on a web browser, click `Add file`, and upload you
 
 On the page you would like to use the CSV file, use the following format (copy and paste and tweak):
 
+{% raw %}
 ```
-\{{ read_csv('TABLENAME.csv', usecols=[0,1,2,3,4,5,6,9,10,17], na_filter=False) }}
+{{ read_csv('TABLENAME.csv', usecols=[0,1,2,3,4,5,6,9,10,17], na_filter=False) }}
 ```
+{% endraw %}
 
 Update `TABLENAME` to match the name of your CSV file. The `usecols` refers to the columns on the CSV file directly. You can open it in something like Excel or LibreOffice Calc (free alternative to Excel) and see which columns correspond to which numbers. 
 
