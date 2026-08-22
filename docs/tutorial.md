@@ -15,7 +15,7 @@ This page will cover how to set up an mkdocs patch from beginning to end.
         * If your username is `monalisastradingemporium`, type `monalisastradingemporium.github.io`, make sure you have the formatting correct!     
         * If your username has any capital letters in it, make sure to only use     lowercase letters here. If your username is `MonaLisasTradingEmporium`, use `monalisastradingemporium`
     * **Uncheck** the `Copy the main branch only` box
-3. On the newly cloned repository, click the `Actions` tab and approve running any workflows. 
+3. On the newly cloned repository, click the `Actions` tab and you will see a warning that says "Workflows aren’t being run on this forked repository", **click** "I understand my workflows, go ahead and enable them". 
 4. Click the `Settings` tab, click `Pages` on the left-hand side of the screen, under `Build and Deployment`, locate the `Branch` section, change it to `gh-pages` and click `Save`
 4. The GitHub repository is now configured and your website will be published shortly at `GITHUBUSERNAME.github.io`
 
