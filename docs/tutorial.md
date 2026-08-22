@@ -25,7 +25,7 @@ In the `docs` folder, you can click `Create new file` and create any new file wi
 
 Once you have written your page, click `Commit changes`, give the commit a descriptive name ("added page name to website"). 
 
-You will now need to add the new page to the navigation. In the root folder, click `mkdocs.yml`, click the pencil icon to edit the page. Under `nav`, you will see a list of basic pages. 
+You will now need to add the new page to the navigation. In the root folder, click `properdocs.yml`, click the pencil icon to edit the page. Under `nav`, you will see a list of basic pages. 
 
 To add your new page as its entirely own section, under `Wants: wants.md`, add a new line, title your page (how it will appear on the website) with a `:` after the title and the name of the newly created file. For example:
 
