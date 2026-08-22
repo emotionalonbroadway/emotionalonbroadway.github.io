@@ -27,14 +27,14 @@ Once you have written your page, click `Commit changes`, give the commit a descr
 
 You will now need to add the new page to the navigation. In the root folder, click `properdocs.yml`, click the pencil icon to edit the page. Under `nav`, you will see a list of basic pages. 
 
-To add your new page as its entirely own section, under `Wants: wants.md`, add a new line, title your page (how it will appear on the website) with a `:` after the title and the name of the newly created file. For example:
+To add your new page as its entirely own section, under `Wants: wants.md`, add a new line, title your page (how it will appear on the website) with a `:` after the title and the name of the newly created file. For any pages with spaces, make sure to surround the page title in quotes. For example:
 
 ```
 nav: 
   - Home: "index.md"
   - Haves: "have.md"
   - Wants: "wants.md"
-  - My New Fancy Page: page.md
+  - "My New Fancy Page": page.md
 ```
 
 However, if you would like to create a child page, you could do something like the following instead:
@@ -44,7 +44,7 @@ nav:
   - Home: "index.md"
   - Haves: "have.md"
   - Wants: "wants.md"
-    - My New Fancy Page: page.md
+    - "My New Fancy Page": page.md
 ```
 
 "My New Fancy Page" would appear as a child of the "Wants" page on your website. 
