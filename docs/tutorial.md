@@ -21,7 +21,7 @@ This page will cover how to set up an mkdocs patch from beginning to end.
 
 ## How to Edit the Website
 
-In the `docs` folder, you can click `Create new file` and create any new file with the format `PAGENAME.md` for the filename. `md` files are Markdown files which in turn are fancy text files. You can look at https://www.markdownguide.org/basic-syntax/ for an example of how to format a Markdown file. At its basic core, it's another text file so if you ignore any Markdown formatting, you can input any text and the website will output it as is. 
+In the `docs` folder, you can click `Add File` > `Create new file` and create any new file with the format `PAGENAME.md` for the filename. `md` files are Markdown files which in turn are fancy text files. You can look at https://www.markdownguide.org/basic-syntax/ for an example of how to format a Markdown file. At its basic core, it's another text file so if you ignore any Markdown formatting, you can input any text and the website will output it as is. 
 
 Once you have written your page, click `Commit changes`, give the commit a descriptive name ("added page name to website"). 
 
