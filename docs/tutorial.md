@@ -73,7 +73,7 @@ Whenever you make a commit (editing or creating a new file), GitHub will run CI 
 
 ## Domain Name
 
-Your newly available website will be deployed at `USERNAME.github.io`. You can see an example of that here, the website you are looking at, is deployed at `https://emotionalonbroadway.github.io/`. You can freely share this website with other traders. 
+Your newly available website will be deployed at `USERNAME.github.io`. You can see an example of that here, the website you are looking at, is deployed at `https://emotionalonbroadway.github.io/`. You can freely share your newly deployed website with other traders. 
 
 If you would ever like to push to a custom domain (ex - going directly to a `.com` address without the `.github.io` attached), you can take a look at GitHub's documentation, https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages, to see if it is something you would be interested in doing. 
 
