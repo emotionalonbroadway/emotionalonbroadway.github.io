@@ -32,7 +32,7 @@ To add your new page as its entirely own section, under `Wants: wants.md`, add a
 ```
 nav: 
   - Home: "index.md"
-  - Haves: "have.md"
+  - Haves: "haves.md"
   - Wants: "wants.md"
   - "My New Fancy Page": page.md
 ```
@@ -42,7 +42,7 @@ However, if you would like to create a child page, you could do something like t
 ```
 nav: 
   - Home: "index.md"
-  - Haves: "have.md"
+  - Haves: "haves.md"
   - Wants: "wants.md"
     - "My New Fancy Page": page.md
 ```
@@ -66,6 +66,16 @@ On the page you would like to use the CSV file, use the following format (copy a
 {% endraw %}
 
 Update `TABLENAME` to match the name of your CSV file. The `usecols` refers to the columns on the CSV file directly. You can open it in something like Excel or LibreOffice Calc (free alternative to Excel) and see which columns correspond to which numbers. 
+
+## Deployment
+
+Whenever you make a commit (editing or creating a new file), GitHub will run CI which is what builds your website. You can click the "Actions" tab after pushing a commit to see what GitHub is doing and to see when your new commit will be pushed to your website. If an error occurs, you can click the most recent failed run and read through the error messages to see if you can determine what is causing the error. Sometimes it's a very simple typo and can be fixed quickly. 
+
+## Domain Name
+
+Your newly available website will be deployed at `USERNAME.github.io`. You can see an example of that here, the website you are looking at, is deployed at `https://emotionalonbroadway.github.io/`. You can freely share this website with other traders. 
+
+If you would ever like to push to a custom domain (ex - going directly to a `.com` address without the `.github.io` attached), you can take a look at GitHub's documentation, https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages, to see if it is something you would be interested in doing. 
 
 ## Documentation
 
