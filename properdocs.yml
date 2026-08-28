@@ -11,6 +11,7 @@ nav:
   - Home: "index.md"
   - Haves: "haves.md"
   - Wants: "wants.md"
+  - "Site Template and Tutorial": "tutorial.md"
 plugins:
   - macros
   - table-reader:
