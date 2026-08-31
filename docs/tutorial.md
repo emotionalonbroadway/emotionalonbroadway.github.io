@@ -92,6 +92,10 @@ Update `TABLENAME` to match the name of your CSV file. The `usecols` refers to t
 
 Do note that you can add text above and below the CSV. A page does not need to **solely consist** of just the CSV output. 
 
+## How to Update the CSV Files
+
+Open the `docs/tables` folder on a web browser, click `Add file`, and upload your CSV file, matching the name of a pre-existing CSV file in the folder. For example, if you have a `haves.csv` file in the folder, make sure the new file you are uploading is also named `haves.csv`. Once the file is uploaded, it will replace the pre-existing file and the website will shortly deploy with the latest CSV file. 
+
 ## Deployment
 
 Whenever you make a commit (editing or creating a new file), GitHub will run CI which is what builds your website. You can click the "Actions" tab after pushing a commit to see what GitHub is doing and to see when your new commit will be pushed to your website. If an error occurs, you can click the most recent failed run and read through the error messages to see if you can determine what is causing the error. Sometimes it's a very simple typo and can be fixed quickly. 
