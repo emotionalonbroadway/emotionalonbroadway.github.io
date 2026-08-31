@@ -76,7 +76,7 @@ The logo appears on the top-left of your website. You may search https://pictogr
 
 ## Home Page
 
-The home page of your website (where people will land when you provide the link) is the `index.md` file in the `docs` folder. You may edit this page to add any information you would like. At the top of the page is a `SITENAME` template where you nay either delete it altogether or update it to your username. 
+The home page of your website (where people will land when you provide the link) is the `index.md` file in the `docs` folder. You may edit this page to add any information you would like. At the top of the page is a `SITENAME` template where you may either delete it altogether or update it to your username. 
 
 ## CSV Files
 
