@@ -1,6 +1,6 @@
 # How-To
 
-This page will cover how to set up an mkdocs website from beginning to end. 
+This page will cover how to set up an mkdocs website (a copy of the website you are currently on) from beginning to end. 
 
 ## Github Account Creation
 
@@ -51,6 +51,29 @@ nav:
 
 Once you have added the new page, go ahead and click `Commit changes...`, give the commit a descriptive name and click `Commit Changes`. Your website will soon be deployed with the new page now visible under the navigation. 
 
+## Site Template
+
+When editing `properdocs.yml`, there are a couple of template lines that should be updated:
+
+```
+site_name: SITENAME
+site_url: https://SITENAME.github.io/
+```
+
+Update the `site_name` to your username (recommended) or any keyword of your choice. Update the site_url to your domain name, `https://USERNAME.github.io`
+
+```
+  palette:
+    scheme: slate
+    primary: pink
+  icon: 
+    logo: material/emoticon-cry-outline
+```
+
+The scheme and primary color can be updated to your liking. See this page, https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/, for a full example of how to update these two lines.
+
+The logo appears on the top-left of your website. You may search https://fonts.google.com/icons to find a logo of your choice and update the `logo` line accordingly. 
+
 ## CSV Files
 
 In the `docs/tables` folder, you may upload any CSV file and the website can directly output these as raw pages. 
@@ -66,6 +89,8 @@ On the page you would like to use the CSV file, use the following format (copy a
 {% endraw %}
 
 Update `TABLENAME` to match the name of your CSV file. The `usecols` refers to the columns on the CSV file directly. You can open it in something like Excel or LibreOffice Calc (free alternative to Excel) and see which columns correspond to which numbers. 
+
+Do note that you can add text above and below the CSV. A page does not need to **solely consist** of just the CSV output. 
 
 ## Deployment
 
