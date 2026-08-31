@@ -72,7 +72,11 @@ Update the `site_name` to your username (recommended) or any keyword of your cho
 
 The scheme and primary color can be updated to your liking. See this page, https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/, for a full example of how to update these two lines.
 
-The logo appears on the top-left of your website. You may search https://fonts.google.com/icons to find a logo of your choice and update the `logo` line accordingly. 
+The logo appears on the top-left of your website. You may search https://pictogrammers.com/library/mdi/ to find a logo of your choice. Once you have located an emoji, use the format `material/EMOJINAME` to add it the template. For example, https://pictogrammers.com/library/mdi/icon/star/, you would use `material/star`. With, https://pictogrammers.com/library/mdi/icon/star-circle/, you would use `material/star-circle` and so on, making sure to use the full name of the emoji after `material/`. 
+
+## Home Page
+
+The home page of your website (where people will land when you provide the link) is the `index.md` file in the `docs` folder. You may edit this page to add any information you would like. At the top of the page is a `SITENAME` template where you can either delete it altogether or update it to your username. 
 
 ## CSV Files
 
